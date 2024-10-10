@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MainDash</string>
+    <string name="map">Map</string>
+    <string name="scan">Scan</string>
+    <string name="points">Points</string>
+    <string name="Scan">Cam Scan</string>
+    <string name="setting">Settings</string>
+</resources>
