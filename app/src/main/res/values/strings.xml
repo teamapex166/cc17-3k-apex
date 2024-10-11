@@ -5,4 +5,6 @@
     <string name="points">Points</string>
     <string name="Scan">Cam Scan</string>
     <string name="setting">Settings</string>
+    <string name="title_activity_aasd">aasd</string>
+
 </resources>
