@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group>
+        <item
+            android:id="@+id/nav_appearance"
+            android:title="Appearance"
+            android:icon="@drawable/appearance"/>
+
+        <item
+            android:id="@+id/nav_readerSettings"
+            android:title="Reader Settings"
+            android:icon="@drawable/reader_settings"/>
+
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:title="Bookmarks"
+            android:icon="@drawable/bookmark"/>
+
+        <item
+            android:id="@+id/nav_dataAndPrivacy"
+            android:title="Data and Privacy"
+            android:icon="@drawable/data_privacy"/>
+        <item
+            android:id="@+id/nav_language"
+            android:title="Language"
+            android:icon="@drawable/language"/>
+        <item
+            android:id="@+id/nav_writeUs"
+            android:title="Write US"
+            android:icon="@drawable/write_us"/>
+        <item
+            android:id="@+id/nav_services"
+            android:title="Services"
+            android:icon="@drawable/services"/>
+
+
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="About"
+                android:icon="@drawable/about"/>
+        </menu>
+
+
+    </item>
+
+
+
+</menu>

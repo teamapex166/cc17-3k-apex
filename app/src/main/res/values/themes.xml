@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.MainDash" parent="Base.Theme.MainDash" />
+    <style name="Theme.MainDash.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MainDash.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.MainDash.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

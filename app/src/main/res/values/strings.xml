@@ -5,8 +5,6 @@
     <string name="points">Points</string>
     <string name="Scan">Cam Scan</string>
     <string name="setting">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="turn_flash_on">Turn Flash On</string>
-    <string name="todo">TODO</string>
+    <string name="title_activity_aasd">aasd</string>
+
 </resources>
