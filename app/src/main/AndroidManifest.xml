@@ -21,6 +21,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="Qcamera"
+            android:exported="true">
+        </activity>
+
     </application>
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        tools:ignore="ManifestOrder" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
 
 </manifest>

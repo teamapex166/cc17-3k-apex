@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@android:color/white"
+        app:flashButtonVisible="true"
+        app:frameColor="@android:color/holo_green_dark"
+        app:frameCornersSize="50dp"
+        app:frameCornersRadius="0dp"
+        app:frameAspectRatioWidth="1"
+        app:frameAspectRatioHeight="1"
+        app:frameSize="0.75"
+        app:frameThickness="3dp"
+        app:frameVerticalBias="0.5"
+        app:maskColor="#77000000">
+
+
+        <SeekBar
+            android:id="@+id/Seek"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:max="30"
+            android:min="1"
+            android:layout_marginStart="56dp"
+            tools:targetApi="o" />
+    </com.budiyev.android.codescanner.CodeScannerView>
+
+</FrameLayout>
