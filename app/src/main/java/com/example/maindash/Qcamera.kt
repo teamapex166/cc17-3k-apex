@@ -30,7 +30,7 @@ class Qcamera : AppCompatActivity() {
         codeScanner.formats = CodeScanner.ALL_FORMATS
 
         codeScanner.autoFocusMode = AutoFocusMode.SAFE
-        codeScanner.scanMode = ScanMode.SINGLE
+        codeScanner.scanMode = ScanMode.CONTINUOUS
         codeScanner.isAutoFocusEnabled = true
         codeScanner.isFlashEnabled = false
 
